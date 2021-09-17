@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Form</title>
+</head>
+<body>
+  <div class="wrapper">
+    <section class="register">
+      <h1 class="heading-register" title="Register" > <span  class="width-h1 over-flow">Register </span>  </h1>
+      <p>Create your account. It`s free and only takes a minute</p>
+
+      <form action="#" method="GET" class="form">
+        <div class="Info ">
+          <input type="text"
+                  placeholder="first name" 
+                  name="FirstName" 
+                  autofocus 
+                  required>
+          <input type="text"
+                  placeholder="last name" 
+                  name="LastName" 
+                  required >
+        </div>
+
+        <input type="email" name="Email" placeholder="email" required>
+        <input type="password" name="Password" placeholder="Password" required>   
+        <input type="password" name="confPass" placeholder="confirm password" required>
+
+        <label class="terms">
+          <input type="checkbox" name="accept" required>  I accept the  <a href="#" target="_blank">Terms of use</a> &
+          <a href="#" target="_blank">Pravicy Policy.</a>
+        </label>
+ 
+               
+        <input class="btn over-flow" type="submit" value="Register now" title="Register now">
+  </form>
+    </section>
+      <p class="sign-in" >Already have an account? <a class="sign-in" href="#">Sign in</a></p>
+  </div>
+</body>
+</html>
