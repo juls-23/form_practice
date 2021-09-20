@@ -89,12 +89,12 @@ body{
 }
 
 
-.Info {
+.info {
   display: flex;
   justify-content: space-between;
 }
 
-.Info >input{
+.info >input{
   width: 47%;
 }
 
@@ -149,6 +149,6 @@ a:not(p>a){
   margin-top: 15px;
   color: #fff;
   font-weight: bold;
-  font-size: var(--main-size);
+  
   
 }
